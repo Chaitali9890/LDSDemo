@@ -5,7 +5,7 @@ import AccountSite from '@salesforce/schema/Account.Site';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class LDSDemo extends LightningElement {
-    @api recordId;
+    @api recordId;//record id
     @api objectApiName;
     @track fields=[AccountName,AccountNumber,AccountSite];
     connectedCallback()
